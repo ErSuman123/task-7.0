@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Profile</title>
+    <style>
+        /* Body and Background Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Resume Container */
+        .resume {
+            background-color: rgba(245, 235, 235, 0.9); /* Semi-transparent white background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(138, 113, 113, 0.2);
+            max-width: 800px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Subtle Pattern Overlay */
+        .resume::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuXzEiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCI+PHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjEiPjwvcmVjdD48L3BhdHRlcm4+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNwYXR0ZXJuXzEpIj48L3JlY3Q+PC9zdmc+');
+            opacity: 0.3;
+            z-index: -1;
+        }
+
+        /* Profile Photo */
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 30px;
+            border: 5px solid #260b0b;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Headings */
+        h1 {
+            color: #333;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #131111;
+            margin: 10px 0;
+            font-size: 1.8em;
+        }
+
+        /* Description List */
+        dl {
+            margin: 20px 0;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #333;
+        }
+
+        dd {
+            margin-left: 20px;
+            color: #666;
+        }
+
+        /* Horizontal Line */
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            color: #444;
+        }
+
+        /* Section Titles */
+        .section-title {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        /* Section Content */
+        .section-content {
+            margin-left: 20px;
+        }
+
+        .section-content p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .section-content ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .section-content ul li {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .section-content::before {
+            content: "• ";
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume">
+        <img src="sumang.jpg" alt="Profile Photo" class="profile-photo">
+        <h1>ER.suman</h1>
+        <p>Web Developer | Designer | Creative Thinker</p>
+        
+        <hr>
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <a href="mailto:samanraj097@gmail.com">G-mail</a><hr>
+            
+            <a href="https://www.linkedin.com/in/er-suman-shah-249992293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">link:din profile </a><hr>
+            
+        </div>
+
+        <hr>
+
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="section-content">
+                <p>Experienced web developer with a passion for creating responsive and user-friendly websites. Skilled in HTML, CSS, JavaScript, and various web development frameworks. Strong problem-solving abilities and a keen eye for design.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>Responsive Web Design</li>
+                    <li>Version Control (Git)</li>
+                    <li>UI/UX Design</li>
+                    <li>Cross-browser Compatibility</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="section-content">
+                <dl>
+                    <dt>Web Developer</dt>
+                    <dd>microsoft- Company - Jan 2020 to Present</dd>
+                    <dd>Developed and maintained company websites, ensuring high performance and responsiveness.</dd>
+                    
+                    <dt>software Developer</dt>
+                    <dd>google - Jun 2018 to Dec 2019</dd>
+                    <dd>Assisted in the development of client websites and collaborated with senior developers on various projects.</dd>
+                </dl>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="section-content">
+                <dl>
+                    <dt>Bachelor of Science in Computer Science</dt>
+                    <dd>pass out 2022 in vit </dd>
+                </dl>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="section">
+            <h2 class="section-title">HOBBY</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Talk to yourself</li>
+                    <li>walking</li>
+                    <li>listen music</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
